@@ -18,3 +18,7 @@ fp-info-cache
 *.dsn
 *.ses
 *.bin
+
+# LTspice
+*.log
+*.raw

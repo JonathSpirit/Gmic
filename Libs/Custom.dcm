@@ -1,3 +1,14 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MCP6476U
+D 3 MHz Operational Amplifier with EMI Filtering
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6476-6R-6U-7-9-Data-Sheet-20006419B.pdf
+$ENDCMP
+#
+$CMP MCP6479
+D 3 MHz Quad-Operational Amplifier with EMI Filtering, SOIC-14/SSOP-14
+K quad opamp
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6476-6R-6U-7-9-Data-Sheet-20006419B.pdf
+$ENDCMP
+#
 #End Doc Library
