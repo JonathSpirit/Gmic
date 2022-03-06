@@ -763,79 +763,6 @@ Wire Wire Line
 	10200 5700 10200 5750
 Wire Wire Line
 	10200 5750 9600 5750
-$Comp
-L Connector:Conn_01x03_Male J1
-U 1 1 5EEDDD06
-P 1000 5350
-F 0 "J1" H 1108 5631 50  0000 C CNN
-F 1 "SecondaryBoard_L" H 1108 5540 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1000 5350 50  0001 C CNN
-F 3 "~" H 1000 5350 50  0001 C CNN
-	1    1000 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x03_Male J2
-U 1 1 5EEDF161
-P 1000 6100
-F 0 "J2" H 1108 6381 50  0000 C CNN
-F 1 "SecondaryBoard_R" H 1108 6290 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1000 6100 50  0001 C CNN
-F 3 "~" H 1000 6100 50  0001 C CNN
-	1    1000 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0134
-U 1 1 5EEDFB92
-P 1500 5150
-F 0 "#PWR0134" H 1500 5000 50  0001 C CNN
-F 1 "+5V" H 1515 5323 50  0000 C CNN
-F 2 "" H 1500 5150 50  0001 C CNN
-F 3 "" H 1500 5150 50  0001 C CNN
-	1    1500 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 5250 1500 5250
-Wire Wire Line
-	1500 5250 1500 5150
-$Comp
-L power:GND #PWR0135
-U 1 1 5EEEA4DA
-P 1500 6300
-F 0 "#PWR0135" H 1500 6050 50  0001 C CNN
-F 1 "GND" H 1505 6127 50  0000 C CNN
-F 2 "" H 1500 6300 50  0001 C CNN
-F 3 "" H 1500 6300 50  0001 C CNN
-	1    1500 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 6200 1200 6200
-Wire Wire Line
-	1500 6300 1500 6200
-Text Label 1200 6100 0    50   ~ 0
-Uout
-Text Label 1200 5350 0    50   ~ 0
-R_POT_IN
-Text Label 1200 5450 0    50   ~ 0
-R_POT_OUT
-Wire Wire Line
-	1500 6200 1500 6000
-Wire Wire Line
-	1500 6000 1200 6000
-Connection ~ 1500 6200
-Wire Notes Line
-	750  4900 1650 4900
-Wire Notes Line
-	1650 4900 1650 6500
-Wire Notes Line
-	1650 6500 750  6500
-Wire Notes Line
-	750  6500 750  4900
-Text Notes 750  4900 0    50   ~ 0
-SecondaryBoard
 Text Notes 2800 600  0    50   ~ 0
 https://www.mouser.ch/ProductDetail/CUI-Devices/CMC-9745-44P?qs=48I1WSKJTyYn9Sr%252BBph%2FcA%3D%3D
 Text Notes 2800 700  0    50   ~ 0
@@ -1439,12 +1366,77 @@ Wire Wire Line
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 J?
 U 1 1 62617E06
-P 1000 9050
-F 0 "J?" H 1107 9917 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 1107 9826 50  0000 C CNN
-F 2 "" H 1150 9050 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1150 9050 50  0001 C CNN
-	1    1000 9050
+P -1300 6100
+F 0 "J?" H -1193 6967 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H -1193 6876 50  0000 C CNN
+F 2 "" H -1150 6100 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H -1150 6100 50  0001 C CNN
+	1    -1300 6100
 	1    0    0    -1  
 $EndComp
+NoConn ~ -700 6000
+NoConn ~ -700 6100
+NoConn ~ -700 6300
+NoConn ~ -700 6200
+$Comp
+L power:GND #PWR?
+U 1 1 6226F1C9
+P -1300 7100
+F 0 "#PWR?" H -1300 6850 50  0001 C CNN
+F 1 "GND" H -1295 6927 50  0000 C CNN
+F 2 "" H -1300 7100 50  0001 C CNN
+F 3 "" H -1300 7100 50  0001 C CNN
+	1    -1300 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1300 7100 -1300 7050
+Wire Wire Line
+	-1300 7050 -1600 7050
+Wire Wire Line
+	-1600 7050 -1600 7000
+Connection ~ -1300 7050
+Wire Wire Line
+	-1300 7050 -1300 7000
+NoConn ~ -700 6600
+NoConn ~ -700 6700
+$Comp
+L Device:R R?
+U 1 1 62299238
+P -450 6200
+F 0 "R?" H -380 6246 50  0000 L CNN
+F 1 "R" H -380 6155 50  0000 L CNN
+F 2 "" V -520 6200 50  0001 C CNN
+F 3 "~" H -450 6200 50  0001 C CNN
+	1    -450 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 622A4AA5
+P -150 6200
+F 0 "R?" H -80 6246 50  0000 L CNN
+F 1 "R" H -80 6155 50  0000 L CNN
+F 2 "" V -220 6200 50  0001 C CNN
+F 3 "~" H -150 6200 50  0001 C CNN
+	1    -150 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-450 6050 -450 5800
+Wire Wire Line
+	-450 5800 -700 5800
+Wire Wire Line
+	-700 5700 -150 5700
+Wire Wire Line
+	-150 5700 -150 6050
+Wire Wire Line
+	-450 6350 -450 7050
+Wire Wire Line
+	-450 7050 -1300 7050
+Wire Wire Line
+	-450 7050 -150 7050
+Wire Wire Line
+	-150 7050 -150 6350
+Connection ~ -450 7050
 $EndSCHEMATC
