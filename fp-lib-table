@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name CMC974544P)(type KiCad)(uri ${KIPRJMOD}/libraries/CMC974544P.pretty)(options "")(descr ""))
   (lib (name SJ13523N)(type KiCad)(uri ${KIPRJMOD}/libraries/SJ13523N.pretty)(options "")(descr ""))
+  (lib (name P160KN0QC15C250K)(type KiCad)(uri ${KIPRJMOD}/libraries/P160KN0QC15C250K.pretty)(options "")(descr ""))
 )
