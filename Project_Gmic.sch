@@ -211,7 +211,7 @@ L Device:R R15
 U 1 1 5EB9A7B6
 P 7350 3550
 F 0 "R15" V 7250 3550 50  0000 C CNN
-F 1 "100k" V 7350 3550 50  0000 C CNN
+F 1 "80k" V 7350 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7280 3550 50  0001 C CNN
 F 3 "~" H 7350 3550 50  0001 C CNN
 	1    7350 3550
@@ -922,8 +922,8 @@ L Device:R_Potentiometer RV1
 U 1 1 625602BD
 P 7800 3550
 F 0 "RV1" V 7700 3650 50  0000 R CNN
-F 1 "P160KN-0QC15C500K " V 7900 4500 50  0000 R CNN
-F 2 "P160KN0QC15C250K:P160KN0QC15C250K" H 7800 3550 50  0001 C CNN
+F 1 "PTV09A-5025F-A503" V 7900 4400 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 7800 3550 50  0001 C CNN
 F 3 "~" H 7800 3550 50  0001 C CNN
 	1    7800 3550
 	0    1    1    0   
@@ -1469,6 +1469,39 @@ F 1 "GNDA" H 10455 3327 50  0000 C CNN
 F 2 "" H 10450 3500 50  0001 C CNN
 F 3 "" H 10450 3500 50  0001 C CNN
 	1    10450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6287E692
+P 950 6900
+F 0 "H1" H 1050 6946 50  0000 L CNN
+F 1 "MountingHole_3mm" H 1050 6855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 950 6900 50  0001 C CNN
+F 3 "~" H 950 6900 50  0001 C CNN
+	1    950  6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6287EFDC
+P 950 7100
+F 0 "H2" H 1050 7146 50  0000 L CNN
+F 1 "MountingHole_3mm" H 1050 7055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 950 7100 50  0001 C CNN
+F 3 "~" H 950 7100 50  0001 C CNN
+	1    950  7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6287F2F2
+P 950 7300
+F 0 "H3" H 1050 7346 50  0000 L CNN
+F 1 "MountingHole_3mm" H 1050 7255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 950 7300 50  0001 C CNN
+F 3 "~" H 950 7300 50  0001 C CNN
+	1    950  7300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
