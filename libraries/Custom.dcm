@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD8531
+D 3 MHz Operational Amplifier, Rail-to-rail
+F https://www.mouser.ch/datasheet/2/609/AD8531_8532_8534-1502287.pdf
+$ENDCMP
+#
 $CMP MCP6476U
 D 3 MHz Operational Amplifier with EMI Filtering
 F https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6476-6R-6U-7-9-Data-Sheet-20006419B.pdf
