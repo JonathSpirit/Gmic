@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Gmic")
-		(date "2024-09-21")
+		(date "2024-10-31")
 		(rev "V1.2")
 		(company "Guillaume Guillet")
 		(comment 1 "Copyright Guillaume Guillet 2024")

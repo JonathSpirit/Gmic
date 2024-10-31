@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Gmic")
-		(date "2024-09-21")
+		(date "2024-10-31")
 		(rev "V1.2")
 		(company "Guillaume Guillet")
 		(comment 1 "Copyright Guillaume Guillet 2024")
@@ -5737,6 +5737,17 @@
 		)
 		(uuid "f849a861-0f63-45e4-af71-2758706a137e")
 	)
+	(label "USB_SHIELD"
+		(at 19.05 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5411d4d9-8463-497a-b2eb-b1be62d894a8")
+	)
 	(label "AUDIO_1_IN"
 		(at 170.18 92.71 180)
 		(fields_autoplaced yes)
@@ -9220,7 +9231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 53.975 79.375 0)
 			(effects
 				(font
